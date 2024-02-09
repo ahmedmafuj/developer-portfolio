@@ -22,24 +22,43 @@ section{
 }
 section .Contain-area {
     padding-left: 50px;
+    padding-right: 20px;
 }
 .Contain-area a {
     text-decoration: none;
     color: white;
     font-size: 20px;
     font-weight: 500;
-    background-image: -webkit-linear-gradient(yellow,orange);
+    background-image: linear-gradient(orange, tomato);
     background-color: orange;
     padding: 10px 30px;
     border-radius: 7px;
     
 }
+ p{
+    text-align: justify;
+    
+ }
 
 
 .half-width{
     width: 50%;
 }
 .image-area img {
-    width: 80%;
+    width: 40%;
+    position: absolute;
+    padding-top: 50px;
     
 }
+
+.dream-section{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: center right;
+}
+.dream-section p{
+    padding-right: 100px;
+}
+    
+
+
